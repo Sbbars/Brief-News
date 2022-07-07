@@ -3,13 +3,18 @@
 {% block body %}
     {% for news in cases.articles %}
     <div class="tozoom">
-    <div class="newsbox view ">
+    <div class="newsbox">
+            
         <div class="img_div">
-            <img src="{{news.urlToImage}}"class="rounded"alt="" height="270rem">
+            <div class="<div class="responsive">
+        
+            <img src="{{news.urlToImage}}"class="rounded"height="270rem">
+        </div>
         </div>
         <div class="main_news">
-
+            <div class = "title">
             <h3>{{news.title}}</h3>
+            </div>
             <h6>Author:{{news.author}}</h6>
             <p>{{news.description}}
                 <a href="{{news.url}}"><i>follow this news.</i></a>
@@ -19,6 +24,5 @@
         </div>
     </div>
     </div>
-
 {% endfor %}
 {% endblock %}
