@@ -27,10 +27,13 @@ body{
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
     border-radius: 8px;
 } 
-/* .dark{
-    background-color: #080705;
-    color: #e6e6e6;
-} */
+ .navbar{
+    /* background-color: #080705; */
+    background: rgba(0, 0, 0, 0.8);
+    padding: 30px;
+    
+} 
+
 /*
   
 .main_news{
@@ -116,10 +119,12 @@ body{
         height:auto
     } 
     .navbar{ 
-        padding: 7%; 
+        padding: 10%; 
         justify-content: center; 
-        object-fit: cover;
         background: rgba(0, 0, 0, 0.8);
+        text-align:center;
+        object-fit: cover;
+        
     
     
     }
