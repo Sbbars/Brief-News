@@ -68,7 +68,7 @@ body{
 
 @media only screen and (max-width: 700px) {
     body{
-        padding: 3%;
+        padding: 1%;
         font-size : 20px;
         font-weight:normal;
         width: 100%;
@@ -89,35 +89,39 @@ body{
     .newsbox{
         display: block;
         width: 100%;
-        padding: 5%;
+        padding: 1%;
         box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
         justify-items: center;
         object-fit: cover;
+        width: auto\9;
         
         
     } 
-     .main_news{ 
+    /* .img_div {
+        width:100%;
+    /* object-fit: cover; */
+          /* height: auto;
+          width: auto\9;
+         justify-content: center;  */
+        
+        /* height:auto */
+    /* } */ 
+     /* .main_news{ 
         flex:block ;
         width:100%;
         justify-items: center;
         object-fit: cover;
         
-    }
+    } */
     .title{
 
         font-size: 10px;
     }
     
-.responsive {
+/* .responsive {
     width: 100%;
   }
-    .img_div {
-        width:100%;
-        object-fit: cover;
-        justify-content: center;
-        
-        height:auto
-    } 
+      */
     .navbar{ 
         padding: 10%; 
         justify-content: center; 
