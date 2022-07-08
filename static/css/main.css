@@ -140,6 +140,7 @@ body{
         /* box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px; */
         justify-items: center;
         object-fit: cover;
+        align-items: left;
         /* position:absolute; */
         /* width: auto\9; */
         
@@ -149,8 +150,10 @@ body{
         height:auto;
         width:100%;
         flex:block;
+        padding-right: 8%;
         justify-items: center;
         object-fit: cover;
+        align-items:center;
         /* position: absolute; */
     }
     /* object-fit: cover; */
@@ -161,8 +164,11 @@ body{
         /* height:auto */
     /* } */ 
      .main_news{ 
+        display: block;
         flex:block ;
         width:100%;
+        /* padding:1%; */
+        align-items:center;
         justify-items: center;
         object-fit: cover;
         
